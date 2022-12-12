@@ -140,7 +140,8 @@
               </div>
             </div>
             <a href="index.html">
-              <button class="btn btn-primary d-grid w-100">
+              <button class="btn btn-primary d-grid w-100"data-bs-toggle="modal"
+              data-bs-target="#modalCenter">
                 Sign up
               </button>
             </a>
@@ -177,6 +178,27 @@
     </div>
   </div>
 </div>
+<div class="modal fade" id="modalCenter" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col mb-3">
+                     <h5 class="text-center">Your account has been Registered</h5>
+                  </div>
+              </div>
+              
+          </div>
+          <div class="text-center mb-3">
+              <button type="button" class="btn btn-primary">OK</button>
+          </div>
+      </div>
+  </div>
+</div>
 
   <!-- Core JS -->
   <!-- build:js assets/vendor/js/core.js -->
@@ -205,7 +227,4 @@
   <!-- Page JS -->
   <script src="../../assets/js/pages-auth.js"></script>
 </body>
-
-
-<!-- Mirrored from pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/html/vertical-menu-template/auth-register-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 09:40:19 GMT -->
 </html>
